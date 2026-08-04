@@ -33,6 +33,7 @@ package dev.poyuchen.leetcode.math;
 import dev.poyuchen.leetcode.common.Checks;
 
 public final class P0009PalindromeNumber {
+
     public boolean isPalindrome(int x) {
         if (x < 0 || (x % 10 == 0 && x != 0)) {
             return false;
@@ -45,6 +46,16 @@ public final class P0009PalindromeNumber {
         }
 
         return x == reversedHalf || x == reversedHalf / 10;
+    }
+
+    public boolean firstTry(int x) {
+        if (x < 0) return false;
+
+        char[] str = String.valueOf(x).toCharArray();
+        for (int i = 0; i < str.length / 2; i++) {
+            if (str[i] != str[str.length - 1 - i]) return false;
+        }
+        return true;
     }
 
     public static void main(String[] args) {

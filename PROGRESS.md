@@ -10,7 +10,7 @@
 | # | 題目 | 分類 | Tag | Status | Optimal | 檔案 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Two Sum | arrays | -- | -- | -- | [P0001TwoSum.java](src/main/java/dev/poyuchen/leetcode/arrays/P0001TwoSum.java) |
-| 9 | Palindrome Number | math | Easy | -- | -- | [P0009PalindromeNumber.java](src/main/java/dev/poyuchen/leetcode/math/P0009PalindromeNumber.java) |
+| 9 | Palindrome Number | math | Easy | Solved | Yes | [P0009PalindromeNumber.java](src/main/java/dev/poyuchen/leetcode/math/P0009PalindromeNumber.java) |
 | 11 | Container With Most Water | arrays | Medium | Solved | Yes | [P0011ContainerWithMostWater.java](src/main/java/dev/poyuchen/leetcode/arrays/P0011ContainerWithMostWater.java) |
 | 15 | 3Sum | arrays | Medium | Solved | Yes | [P0015ThreeSum.java](src/main/java/dev/poyuchen/leetcode/arrays/P0015ThreeSum.java) |
 | 21 | Merge Two Sorted Lists | linked_list | -- | -- | -- | [P0021MergeTwoSortedLists.java](src/main/java/dev/poyuchen/leetcode/linked_list/P0021MergeTwoSortedLists.java) |
