@@ -50,6 +50,18 @@ public final class P0190ReverseBits {
 
         return result;
     }
+    
+    public int firstTry(int n) {
+        String binaryStr = Integer.toBinaryString(n);
+        binaryStr = String.format("%32s", binaryStr).replaceAll(" ", "0");
+        char[] str = binaryStr.toCharArray();
+        StringBuffer newStr = new StringBuffer();
+        for (int i = str.length - 1; i >= 0; i--) {
+            newStr.append(str[i]);
+        }
+
+        return Integer.parseInt(newStr.toString(),2);
+    }
 
     public static void main(String[] args) {
         var solution = new P0190ReverseBits();
@@ -61,3 +73,4 @@ public final class P0190ReverseBits {
         System.out.println("P0190ReverseBits checks passed.");
     }
 }
+
