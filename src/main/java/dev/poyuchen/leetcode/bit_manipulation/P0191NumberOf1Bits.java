@@ -55,6 +55,18 @@ public final class P0191NumberOf1Bits {
 
         return count;
     }
+    
+    public int firstTry(int n) {
+        int count = 0;
+        String binaryStr = Integer.toBinaryString(n);
+        char[] str = binaryStr.toCharArray();
+        for (int i = 0; i < str.length; i++) {
+            if (str[i] == '1') {
+                count++;
+            }
+        }
+        return count;
+    }
 
     public static void main(String[] args) {
         var solution = new P0191NumberOf1Bits();

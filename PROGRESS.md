@@ -31,7 +31,7 @@
 | 169 | Majority Element | arrays | Easy | Solved | Yes | [P0169MajorityElement.java](src/main/java/dev/poyuchen/leetcode/arrays/P0169MajorityElement.java) |
 | 189 | Rotate Array | arrays | Medium | Solved | Yes | [P0189RotateArray.java](src/main/java/dev/poyuchen/leetcode/arrays/P0189RotateArray.java) |
 | 190 | Reverse Bits | bit_manipulation | Easy | Solved | Yes | [P0190ReverseBits.java](src/main/java/dev/poyuchen/leetcode/bit_manipulation/P0190ReverseBits.java) |
-| 191 | Number of 1 Bits | bit_manipulation | Easy | -- | -- | [P0191NumberOf1Bits.java](src/main/java/dev/poyuchen/leetcode/bit_manipulation/P0191NumberOf1Bits.java) |
+| 191 | Number of 1 Bits | bit_manipulation | Easy | Solved | Yes | [P0191NumberOf1Bits.java](src/main/java/dev/poyuchen/leetcode/bit_manipulation/P0191NumberOf1Bits.java) |
 | 205 | Isomorphic Strings | strings | Easy | Solved | Yes | [P0205IsomorphicStrings.java](src/main/java/dev/poyuchen/leetcode/strings/P0205IsomorphicStrings.java) |
 | 383 | Ransom Note | strings | Easy | Solved | Yes | [P0383RansomNote.java](src/main/java/dev/poyuchen/leetcode/strings/P0383RansomNote.java) |
 | 392 | Is Subsequence | strings | Easy | Solved | Yes | [P0392IsSubsequence.java](src/main/java/dev/poyuchen/leetcode/strings/P0392IsSubsequence.java) |
